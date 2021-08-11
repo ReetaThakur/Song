@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         playSong=findViewById(R.id.songplay);
-        stopSong=findViewById(R.id.btnstop);
+        stopSong=findViewById(R.id.btnStopMusic);
         playSong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -40,6 +40,7 @@ public class MusicService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         mediaPlayer.start();
+        showNotificationAndStartForeGround();
         return super.onStartCommand(intent, flags, startId);
     }
     private void showNotificationAndStartForeGround() {
